@@ -21,7 +21,7 @@ function deepestChild(){
     console.log(fullchildlist[i].innerHTML)
    //if (fullchildlist[i]. ){
       
-    }
+   // }
     
   }
 }
