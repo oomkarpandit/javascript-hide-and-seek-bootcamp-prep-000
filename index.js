@@ -14,10 +14,14 @@ for (let i=0;i<alist.length;i++){
 }
 }
 //fourth test
-function deepestChild(){
- //const arraychild=[]
- let node=document.getElementById('#grand-node')
- let nextnode=node.children[0]
-  console.log('length of list ' +fullchildlist.length)
-console.log(fullchildlist[0].innerHTML)
+function deepestChild() {
+  let node = document.getElementById('grand-node');
+  let nextNode = node.children[0];
+
+  while (nextNode) {
+    node = nextNode;
+    nextNode = node.children[0];
+  }
+
+  return node;
 }
