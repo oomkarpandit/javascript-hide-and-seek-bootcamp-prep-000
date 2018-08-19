@@ -23,7 +23,7 @@ function deepestChild(){
   
       
    // }
-  return fullchildlist[fullchildlist.length]
+  return fullchildlist[fullchildlist.length].innerHTML
     
   }
 }
