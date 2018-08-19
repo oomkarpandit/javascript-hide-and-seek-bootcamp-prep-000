@@ -23,8 +23,7 @@ console.log(nextnode)
     node = nextNode;
     nextNode = node.children[0];
     console.log("inside")
-    console.log(node)
-    console.log(nextnode)
+ 
     
   }
 
