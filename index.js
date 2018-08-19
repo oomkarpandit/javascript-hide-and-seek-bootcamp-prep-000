@@ -22,7 +22,7 @@ console.log(nextnode)
   while (nextNode) {
     node = nextNode;
     nextNode = node.children[0];
-    console.log("inside while loop")
+    console.log("inside")
     console.log(node)
     console.log(nextnode)
     
