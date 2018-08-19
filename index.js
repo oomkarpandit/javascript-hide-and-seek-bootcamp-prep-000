@@ -16,7 +16,8 @@ for (let i=0;i<alist.length;i++){
 //fourth test
 function deepestChild(){
  //const arraychild=[]
- var fullchildlist=document.querySelectorAll('#grand-node')
+ let fullchildlist=document.getElementById('#grand-node')
+ fullchildlist.
   console.log('length of list ' +fullchildlist.length)
 console.log(fullchildlist[0].innerHTML)
 }
