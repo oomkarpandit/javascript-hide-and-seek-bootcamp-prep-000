@@ -22,7 +22,6 @@ function deepestChild(){
     console.log(fullchildlist[i].innerHTML)
   }
   console.log(fullchildlist[fullchildlist.length].innerHTML)
-
   return fullchildlist[fullchildlist.length].innerHTML
 
 
