@@ -17,13 +17,14 @@ for (let i=0;i<alist.length;i++){
 function deepestChild() {
   let node = document.getElementById('grand-node');
   let nextNode = node.children[0];
-console.log(node.text)
-console.log(nextNode.text)
+console.log(node)
+console.log(nextNode)
   while (nextNode) {
     node = nextNode;
     nextNode = node.children[0];
     console.log("inside")
- 
+    console.log(node)
+    console.log(nextNode)
     
   }
 
