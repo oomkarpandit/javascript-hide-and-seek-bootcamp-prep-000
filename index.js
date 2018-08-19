@@ -21,7 +21,8 @@ function deepestChild(){
   for (let i=0;i<fullchildlist.length;i++){
     console.log(fullchildlist[i].innerHTML)
   }
-  console.log(fullchildlist[i].innerHTML)
+  console.log(fullchildlist[fullchildlist.length].innerHTML)
+
   return fullchildlist[fullchildlist.length].innerHTML
 
 
