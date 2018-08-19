@@ -17,7 +17,7 @@ for (let i=0;i<alist.length;i++){
 function deepestChild(){
   const fullchildlist=document.querySelectorAll('#grand-node div ')
   console.log('length of list ' +fullchildlist.length)
-  for (let i=0;i<fullchildlist.length;){
+  for (let i=0;i<fullchildlist.length;i++){
     console.log(fullchildlist[i].innerHTML)
     
   }
