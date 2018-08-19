@@ -15,13 +15,15 @@ for (let i=0;i<alist.length;i++){
 }
 //fourth test
 function deepestChild(){
+ //const arraychild=[]
   const fullchildlist=document.querySelectorAll('#grand-node div ')
   console.log('length of list ' +fullchildlist.length)
   for (let i=0;i<fullchildlist.length;i++){
     console.log(fullchildlist[i].innerHTML)
-   //if (fullchildlist[i]. ){
+  
       
    // }
+  return fullchildlist[fullchildlist.length]
     
   }
 }
