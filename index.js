@@ -19,7 +19,7 @@ function deepestChild(){
   console.log('length of list ' +fullchildlist.length)
   for (let i=0;i<fullchildlist.length;i++){
     console.log(fullchildlist[i].innerHTML)
-   if (fullchildlist[i]. ){
+   //if (fullchildlist[i]. ){
       
     }
     
