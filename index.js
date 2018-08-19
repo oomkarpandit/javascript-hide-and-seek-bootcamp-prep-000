@@ -18,5 +18,5 @@ function deepestChild(){
  //const arraychild=[]
   let fullchildlist=document.querySelector('#grand-node').children
   console.log('length of list ' +fullchildlist.length)
-console.log(fullchildlist.[0])
+console.log(fullchildlist[0])
 }
